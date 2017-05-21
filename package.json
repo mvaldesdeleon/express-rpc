@@ -1,14 +1,12 @@
 {
   "name": "express-rpc",
-  "version": "0.0.1",
-  "description": "beeson-based rpc middleware generator",
+  "version": "0.0.2",
+  "description": "Promise-based rpc middleware generator",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
   },
   "dependencies": {
-    "beeson": "0.0.3",
-    "body-parser": "^1.17.2"
   },
   "devDependencies": {
     "eslint": "^3.19.0"
