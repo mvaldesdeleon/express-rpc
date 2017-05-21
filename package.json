@@ -1,6 +1,6 @@
 {
   "name": "express-rpc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Promise-based rpc middleware generator",
   "main": "index.js",
   "scripts": {
