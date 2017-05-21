@@ -1,0 +1,25 @@
+{
+  "name": "express-rpc",
+  "version": "0.0.1",
+  "description": "beeson-based rpc middleware generator",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "beeson": "0.0.3",
+    "body-parser": "^1.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "repository": "mvaldesdeleon/express-rpc",
+  "keywords": [
+    "beeson",
+    "express",
+    "middleware",
+    "rpc"
+  ],
+  "author": "Martin Valdes de Leon <m.valdesdeleon@gmail.com>",
+  "license": "MIT"
+}
