@@ -13,7 +13,6 @@
   },
   "repository": "mvaldesdeleon/express-rpc",
   "keywords": [
-    "beeson",
     "express",
     "middleware",
     "rpc"
