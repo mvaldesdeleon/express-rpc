@@ -26,9 +26,11 @@ module.exports = function({extract, success, error}) {
             if (!module.hasOwnProperty(method)) return next();
             if (typeof module[method] !== 'function') return _error(res)(501)(new Error('Not Implemented'));
 
-            module[method].call(null, ...args)
-                .then(_success(res))
-                .catch(_error(res)(502));
+            try {
+                module[method].call(null, ...args)
+                    .then(_success(res))
+                    .catch(_error(res)(502));
+            } catch(err) { _error(res)(502)(err); }
         };
     };
 };
